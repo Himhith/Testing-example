@@ -5,4 +5,4 @@ Example of using standart Python testing modules
 
 Run program:  `S15Testingexercise.py`
 
-It will run 3 test one will give error. 
+It will run n3 tests. The last one will give an error. 
