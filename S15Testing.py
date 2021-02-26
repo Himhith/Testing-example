@@ -1,5 +1,5 @@
 import unittest
 
-def do_stuff(num):
-    return num+5
 
+def do_stuff(num):
+    return num + 5

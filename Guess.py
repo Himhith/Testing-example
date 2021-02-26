@@ -5,7 +5,9 @@ ans = randint(1, 10)
 
 # input from user?
 # check that input is a number 1~10
-def guess_num(guess,answer):
+
+
+def guess_num(guess, answer):
     try:
         if 0 < guess < 11:
             if guess == answer:
@@ -22,5 +24,5 @@ def guess_num(guess,answer):
 
 if __name__ == "__main__":
     while True:
-        if (guess_num(int(input('guess a number 1~10:  ')),ans) ): break
-
+        if (guess_num(int(input('guess a number 1~10:  ')), ans)):
+            break
